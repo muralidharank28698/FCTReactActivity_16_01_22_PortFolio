@@ -1,0 +1,38 @@
+.topcontent{
+    color: white;
+    /* position: relative; */
+}
+.topcontent__container{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+.topcontent__container > h1{
+  color: white;
+  font-size: 3.6vw;
+}
+.topcontent__container > p{
+  color: white;
+  text-align: left;
+  padding-left: 3px;
+  padding-top: 20px;
+}
+.topcontent__container > .btn1{
+  color: rgb(253, 251, 251);
+  border: 1px solid white !important;
+  /* background-color: transparent; */
+  background-color: tomato;
+  font-size: 18px;
+  font-family: serif;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+.topcontent__container > .btn1:hover{
+  background-color: rgb(252, 247, 253);
+  color: black;
+  font-weight: 600;
+}

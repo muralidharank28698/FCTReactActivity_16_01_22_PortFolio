@@ -1,0 +1,43 @@
+section {
+    padding: 60px 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-area {
+border-bottom: 1px solid #353C46;
+text-align: center;
+
+}
+.contact-social > ul {
+display: inline-flex;
+
+}
+.contact-social ul li a {
+border: 1px solid #8b9199;
+color: #8b9199;
+display: inline-block;
+height: 40px;
+margin: 0 10px;
+padding-top: 7px;
+transition: all 0.4s ease 0s;
+width: 40px;
+}
+
+.contact-social ul li a:hover {
+border: 1px solid #FAB702;
+color: #FAB702;
+}
+
+section, footer {
+background: #1A1E25;
+color: #868c96;
+}
+
+footer p {
+padding: 40px 0;
+text-align: center;
+}
+

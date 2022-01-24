@@ -1,0 +1,50 @@
+.blogcontainer{
+    /* background: url(../../assets/blogimage.jpg); */
+    height: 400px;
+    margin: 30px auto;
+    display: flex;
+    border: none;
+    width: 100%;
+    outline: none;
+    height: max-content;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(234,233,242,1) 0%, rgba(113,113,134,1) 0%, rgba(192,192,241,1) 0%, rgba(126,129,140,1) 0%, rgba(152,171,209,1) 0%, rgba(92,98,116,1) 0%, rgba(134,136,230,1) 0%, rgba(198,210,213,1) 0%, rgba(214,213,219,1) 0%, rgba(55,55,177,1) 0%, rgba(152,194,227,1) 0%, rgba(210,210,215,1) 0%, rgba(228,237,230,1) 0%, rgba(14,34,74,1) 0%, rgba(229,228,236,1) 0%, rgba(237,238,242,1) 0%, rgba(231,231,238,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 4%, rgba(211,211,218,1) 39%, rgba(223,223,228,1) 46%, rgba(255,255,255,1) 62%, rgba(255,255,255,1) 64%, rgba(254,254,254,1) 74%, rgba(254,254,254,1) 100%, rgba(243,244,247,1) 100%, rgba(241,242,245,1) 100%, rgba(247,247,247,1) 100%, rgba(240,245,243,1) 100%, rgba(168,200,210,1) 100%, rgba(185,223,210,1) 100%, rgba(202,202,213,1) 100%, rgba(29,87,152,1) 100%, rgba(202,199,229,1) 100%, rgba(61,57,107,1) 100%, rgba(202,202,213,0.9472163865546218) 100%, rgba(51,51,56,0.9752275910364145) 100%, rgba(41,40,52,1) 100%, rgba(235,241,242,1) 100%);
+}
+
+.blogcontainer__leftblog{
+    height: 100%;
+    padding: 20px;
+    flex: 0.8;
+    margin-left: 10px;
+}
+.blogcontainer__leftblog h1{
+    color: rgb(245, 192, 48);
+    text-align: left;
+    margin-left: 35px;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    font-family: serif;
+    font-size: 3.2vw;
+    border-bottom: 1px solid rgb(125, 123, 128);
+}
+.blogcontainer__leftblog p{
+    color: rgb(173, 169, 169);
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.blogcontainer__rightblog img{
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.7;
+}
+.blogcontainer__rightblog{
+    height: 100%;
+    flex: 0.9;
+    margin-right: 10px;
+    margin-left: 10px;
+}

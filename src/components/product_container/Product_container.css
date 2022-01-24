@@ -1,0 +1,218 @@
+/* .container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 25%);
+    width: 325px;
+    text-align: center;
+    margin: 25px;
+    cursor: pointer;
+    background-color: #474849;
+  }
+  .image-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-sec img {
+    width: 100%;
+    height: auto;
+  }
+  .description {
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+  }
+  .description h1 {
+    color: #ff9f43;
+    font-size: 22px;
+    margin-top: 8px;
+    letter-spacing: 2px;
+  }
+  .description p {
+    color: rgb(241, 240, 243);
+    font-size: 16px;
+    text-align: center;
+    margin: 10px auto;
+    width: 300px;
+  }
+  .description h4 {
+    color: rgb(241, 240, 243);
+    font-size: 14px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .description h2 {
+    font-size: 16px;
+    color: #f79f1f;
+    margin-top: 8px;
+    letter-spacing: 2px;
+  }
+  .button-group {
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .button-group .buy {
+    width: 100%;
+    border: 1px solid rgb(235, 245, 235);
+    padding: 5px 20px;
+    background-color: rgb(233, 122, 19);
+    font-size: 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(251, 251, 251);
+  }
+  .button-group .buy:hover {
+    background-color: green;
+    color: white;
+  }
+  .button-group .add-to-cart {
+    width: 100%;
+    border: 1px solid rgb(235, 245, 235);
+    padding: 5px 20px;
+    background-color: rgb(233, 122, 19);
+    font-size: 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  .button-group .add-to-cart:hover {
+    background-color: rgb(5, 58, 16);
+    color: white;
+  }
+  .products{
+      display: flex;
+      justify-content: space-evenly;
+      width: 80%;
+      margin: auto;
+      background-color: blue;
+  } */
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: all 0.4s cubic-bezier(0, 1.57, .67, 1.18);
+  }
+  .box_container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 95%;
+      margin: auto;
+      /* background: #ccc; */
+      
+  }
+  .box{
+      flex:1 1 300px;
+      background: #fff;
+      /* border: 1px solid rgba(0,0,0,.3);s */
+      position: relative;
+      overflow: hidden;
+      margin: 20px;
+      border-radius: 6px;
+      /* transition: transform .4s;  */
+      transition: transform 200ms ease-in;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .box:hover{
+  /* transform: scale(0.9); */
+  transform: scale(1.05);
+  }
+  .box .image{
+      padding: 10px;
+      text-align: center;
+      height: 300px;
+      margin:10px auto;
+      width: 90%;
+  }
+  .box .image img{
+      height: 100%;
+      width: 100%;
+      /* margin-top: 10px; */
+
+      /* padding: 10px; */
+      /* object-fit: cover; */
+      filter: drop-shadow(0 3px 5px rgba(0,0,0,.7));
+  }
+
+.box .info .title{
+    margin-top: 20px;
+    padding: 10px;
+    color: #666;
+    font-size: 20px;
+    margin-left: 6px;
+    /* border-top: 1px solid rgba(0,0,0,.3); */
+
+}
+.box .info .subinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.box .info .subinfo .Price{
+    font-size: 18px;
+    display: flex;
+    margin: auto;
+}
+.box .info .subinfo .Price .offer__price{
+   color: #f64b07;
+   margin: 0px 10px;
+}
+.box .info .subinfo .Price .original__price{
+   color: #585453;
+   margin: 0px 10px;
+}
+.box .info .subinfo .Price span{
+    font-size: 15px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.box .info .fullinfo{
+    width: 86%;
+    margin: auto;
+}
+/* table css code */
+
+.rwd-table{
+    border-collapse: separate;
+  border-spacing: 0px 15px;
+}
+  
+th {
+    font-size:14px;
+    text-align: left;
+    color: #1f55eb;
+  }
+  td {
+    width: 200px;
+    padding: 0px 30px;
+    font-size:16px;
+    font-family: serif;
+    color: rgb(59, 57, 57);
+  }
